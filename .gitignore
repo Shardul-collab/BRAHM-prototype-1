@@ -115,3 +115,13 @@ agents/shani/input_tmp.in
 agents/shani/New Text Document.txt
 agents/shani/repositories/New Text Document.txt
 agents/shani/tree -L 3.txt
+
+# Dev scripts
+test_injection.py
+brahm_audit.py
+_s5_reset.sh
+_step1.sh
+_step2.sh
+_step3.sh
+_step4.sh
+_step2_mcp.py
