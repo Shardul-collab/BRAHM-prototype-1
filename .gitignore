@@ -91,3 +91,27 @@ agents/vishwakarma/pseudo/*.UPF
 # Logs
 logs/
 agents/shani/results/
+
+# Runtime outputs and job directories
+agents/shani/runs/
+agents/vishwakarma/jobs/
+agents/shani/reports/
+
+# Generated documents
+agents/shani/scripts/*.docx
+
+# Runtime state files
+agents/chitragupta/data/schemas/
+agents/chitragupta/data/session_memory.json
+agents/chitragupta/data/write_journal.json
+agents/shani/database/mcp_corrections.jsonl
+
+# Junk files
+*.bak2
+*.bat
+agents/shani/shani_dump.txt
+agents/shani/test_report.json
+agents/shani/input_tmp.in
+agents/shani/New Text Document.txt
+agents/shani/repositories/New Text Document.txt
+agents/shani/tree -L 3.txt
