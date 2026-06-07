@@ -1,0 +1,14 @@
+{
+  "job_id": "396c9077-d941-4aa1-84da-6aa30e534579",
+  "label": "i2s3_scf",
+  "code": "pw",
+  "status": "running",
+  "created_at": "2026-05-27T10:03:40.959140+00:00",
+  "started_at": "2026-05-27T10:03:40.979423+00:00",
+  "ended_at": null,
+  "exit_code": null,
+  "error": null,
+  "mpi_np": 1,
+  "extra_args": [],
+  "workdir": "/mnt/d/brahm/agents/vishwakarma/jobs/396c9077-d941-4aa1-84da-6aa30e534579"
+}

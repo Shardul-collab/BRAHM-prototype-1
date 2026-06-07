@@ -1,0 +1,18 @@
+At line 1126 of file xmltools.f90
+Fortran runtime error: Sequential READ or WRITE not allowed after EOF marker, possibly use REWIND or BACKSPACE
+
+Error termination. Backtrace:
+#0  0xa34a6423e59 in ???
+#1  0xa34a6424a71 in ???
+#2  0xa34a66bf11d in ???
+#3  0x59f556c06545 in ???
+#4  0x59f556b7e1a2 in ???
+#5  0x59f556c0f52a in ???
+#6  0x59f556a2b1d7 in ???
+#7  0x59f556a8f007 in ???
+#8  0x59f55690f0c7 in ???
+#9  0x59f55690df22 in ???
+#10  0xa34a602a1c9 in ???
+#11  0xa34a602a28a in __libc_start_main
+#12  0x59f55690df54 in ???
+#13  0xffffffffffffffff in ???

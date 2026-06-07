@@ -1,0 +1,22 @@
+{
+  "database_name": "test_db_1776921901",
+  "notion_database_id": "",
+  "fields": [
+    {
+      "name": "Title",
+      "type": "title"
+    },
+    {
+      "name": "Date",
+      "type": "date"
+    },
+    {
+      "name": "Tags",
+      "type": "multi_select"
+    },
+    {
+      "name": "Notes",
+      "type": "rich_text"
+    }
+  ]
+}

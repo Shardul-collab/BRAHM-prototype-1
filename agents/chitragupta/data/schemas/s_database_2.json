@@ -1,0 +1,26 @@
+{
+  "database_name": "s database 2",
+  "notion_database_id": "347fdb69-f427-81dc-8457-c5e9470fb8fd",
+  "fields": [
+    {
+      "name": "Title",
+      "type": "title"
+    },
+    {
+      "name": "Date",
+      "type": "date"
+    },
+    {
+      "name": "Mood",
+      "type": "number"
+    },
+    {
+      "name": "Activities",
+      "type": "multi_select"
+    },
+    {
+      "name": "Notes",
+      "type": "rich_text"
+    }
+  ]
+}

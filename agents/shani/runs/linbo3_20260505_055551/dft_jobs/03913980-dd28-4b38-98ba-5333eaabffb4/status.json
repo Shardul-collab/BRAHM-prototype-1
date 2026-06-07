@@ -1,0 +1,14 @@
+{
+  "job_id": "03913980-dd28-4b38-98ba-5333eaabffb4",
+  "label": "linbo3_ph",
+  "code": "ph",
+  "status": "failed",
+  "created_at": "2026-05-05T06:26:11.152899+00:00",
+  "started_at": "2026-05-05T06:26:11.159167+00:00",
+  "ended_at": "2026-05-05T06:26:11.592271+00:00",
+  "exit_code": 1,
+  "error": "Non-zero exit code: 1\n---\n--------------------------------------------------------------------------\nMPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD\nwith errorcode 1.\n\nNOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.\nYou may or may not see output from other processes, depending on\nexactly when Open MPI kills them.\n--------------------------------------------------------------------------\n",
+  "mpi_np": 1,
+  "extra_args": [],
+  "workdir": "/mnt/d/SQL_IMP_AI_Project/runs/linbo3_20260505_055551/dft_jobs/03913980-dd28-4b38-98ba-5333eaabffb4"
+}

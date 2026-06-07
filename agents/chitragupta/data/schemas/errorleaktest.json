@@ -1,0 +1,10 @@
+{
+  "database_name": "ErrorLeakTest",
+  "notion_database_id": "",
+  "fields": [
+    {
+      "name": "Title",
+      "type": "title"
+    }
+  ]
+}

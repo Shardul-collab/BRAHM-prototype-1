@@ -1,0 +1,14 @@
+{
+  "job_id": "bcbecc5f-39a8-4b71-9ef0-feadd5bdfbc3",
+  "label": "i2s3_relax",
+  "code": "pw",
+  "status": "running",
+  "created_at": "2026-05-27T08:52:08.151743+00:00",
+  "started_at": "2026-05-27T08:52:08.178627+00:00",
+  "ended_at": null,
+  "exit_code": null,
+  "error": null,
+  "mpi_np": 1,
+  "extra_args": [],
+  "workdir": "/mnt/d/brahm/agents/vishwakarma/jobs/bcbecc5f-39a8-4b71-9ef0-feadd5bdfbc3"
+}

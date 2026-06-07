@@ -1,0 +1,14 @@
+{
+  "job_id": "bbb15a63-2774-4828-8db2-eddf8594dfe6",
+  "label": "In2Se3_test",
+  "code": "pw",
+  "status": "failed",
+  "created_at": "2026-05-27T15:04:23.062372+00:00",
+  "started_at": "2026-05-27T15:04:23.079396+00:00",
+  "ended_at": "2026-05-27T15:04:27.485695+00:00",
+  "exit_code": 1,
+  "error": "Non-zero exit code: 1\n---\n--------------------------------------------------------------------------\nMPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD\n  Proc: [[39591,0],0]\n  Errorcode: 1\n\nNOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.\nYou may or may not see output from other processes, depending on\nexactly when Open MPI kills them.\n--------------------------------------------------------------------------\n",
+  "mpi_np": 1,
+  "extra_args": [],
+  "workdir": "/mnt/d/brahm/agents/vishwakarma/jobs/bbb15a63-2774-4828-8db2-eddf8594dfe6"
+}

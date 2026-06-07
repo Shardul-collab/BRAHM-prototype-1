@@ -1,0 +1,24 @@
+*** buffer overflow detected ***: terminated
+
+Program received signal SIGABRT: Process abort signal.
+
+Backtrace for this error:
+#0  0x1378ffc23e59 in ???
+#1  0x1378ffc22e75 in ???
+#2  0x1378ff84532f in ???
+#3  0x1378ff89eb2c in pthread_kill
+#4  0x1378ff84527d in gsignal
+#5  0x1378ff8288fe in abort
+#6  0x1378ff8297b5 in ???
+#7  0x1378ff936c48 in __fortify_fail
+#8  0x1378ff936603 in __chk_fail
+#9  0x1378ff937de4 in __snprintf_chk
+#10  0x5d0ca63ff96e in ???
+#11  0x5d0ca621d1d7 in ???
+#12  0x5d0ca6281007 in ???
+#13  0x5d0ca61010c7 in ???
+#14  0x5d0ca60fff22 in ???
+#15  0x1378ff82a1c9 in ???
+#16  0x1378ff82a28a in __libc_start_main
+#17  0x5d0ca60fff54 in ???
+#18  0xffffffffffffffff in ???

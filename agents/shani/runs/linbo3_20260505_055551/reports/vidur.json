@@ -1,0 +1,46 @@
+[
+  {
+    "file": "LiNbO3_Raman.txt",
+    "technique": "Raman",
+    "confidence": 1.0,
+    "axis_name": "RamanShift_cm-1",
+    "n_points": 800,
+    "signals": [
+      "keyword:raman",
+      "keyword:raman shift",
+      "keyword:cm-1",
+      "keyword:wavenumber",
+      "keyword:raman spectrum",
+      "weak_keyword:intensity",
+      "axis_range:[100, 899] cm\u207b\u00b9 (Raman)"
+    ]
+  },
+  {
+    "file": "LiNbO3_UVVis.txt",
+    "technique": "UV-Vis",
+    "confidence": 0.9,
+    "axis_name": "Wavelength_nm",
+    "n_points": 650,
+    "signals": [
+      "keyword:absorbance",
+      "keyword:wavelength",
+      "keyword:uv-vis",
+      "keyword:nm",
+      "axis_range:[250, 899] nm (UV-Vis)"
+    ]
+  },
+  {
+    "file": "LiNbO3_XRD.xy",
+    "technique": "XRD",
+    "confidence": 0.85,
+    "axis_name": "2Theta",
+    "n_points": 700,
+    "signals": [
+      "extension:.xy (possible XRD ASCII)",
+      "keyword:2theta",
+      "keyword:xrd",
+      "weak_keyword:intensity",
+      "axis_range:[10.0, 79.9] matches 2\u03b8"
+    ]
+  }
+]

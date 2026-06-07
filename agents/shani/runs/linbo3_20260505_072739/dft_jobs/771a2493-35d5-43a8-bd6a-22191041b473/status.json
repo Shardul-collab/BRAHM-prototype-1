@@ -1,0 +1,14 @@
+{
+  "job_id": "771a2493-35d5-43a8-bd6a-22191041b473",
+  "label": "linbo3_scf",
+  "code": "pw",
+  "status": "failed",
+  "created_at": "2026-05-05T11:23:01.266704+00:00",
+  "started_at": "2026-05-05T11:23:01.272903+00:00",
+  "ended_at": "2026-05-05T11:23:02.154328+00:00",
+  "exit_code": -6,
+  "error": "Non-zero exit code: -6\n---\n*** buffer overflow detected ***: terminated\n\nProgram received signal SIGABRT: Process abort signal.\n\nBacktrace for this error:\n#0  0x11c641823e59 in ???\n#1  0x11c641822e75 in ???\n#2  0x11c64144532f in ???\n#3  0x11c64149eb2c in pthread_kill\n#4  0x11c64144527d in gsignal\n#5  0x11c6414288fe in abort\n#6  0x11c6414297b5 in ???\n#7  0x11c641536c48 in __fortify_fail\n#8  0x11c641536603 in __chk_fail\n#9  0x11c641537de4 in __snprintf_chk\n#10  0x607fcf1d396e in ???\n#11  0x607fceff11d7 in ???\n#12  0x607fcf055007 in ???\n#13  0x607fceed50c7 in ???\n#14  0x607fceed3f22 in ???\n#15  0x11c64142a1c9 in ???\n#16  0x11c64142a28a in __libc_start_main\n#17  0x607fceed3f54 in ???\n#18  0xffffffffffffffff in ???\n",
+  "mpi_np": 1,
+  "extra_args": [],
+  "workdir": "/mnt/d/SQL_IMP_AI_Project/runs/linbo3_20260505_072739/dft_jobs/771a2493-35d5-43a8-bd6a-22191041b473"
+}

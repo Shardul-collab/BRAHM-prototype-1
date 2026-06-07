@@ -1,0 +1,93 @@
+# Virtual environments
+agents/shani/venv/
+agents/chitragupta/.venv/
+agents/ganesh/.venv/
+agents/vidur/.venv/
+agents/vishwakarma/venv/
+**/venv/
+**/.venv/
+
+# Environment / secrets
+.env
+**/.env
+*.env
+
+# Databases
+**/*.db
+**/*.db-shm
+**/*.db-wal
+
+# FAISS vector indexes
+**/*.faiss
+**/*.faiss.map.npy
+
+# Downloaded papers
+agents/shani/papers/
+
+# QE job outputs
+data/test_qe_jobs/
+agents/vishwakarma/qe/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and snapshots
+*.log
+brahm_snapshot_*.txt
+brahm_audit_report_*.txt
+brahm_audit_summary_*.txt
+
+# Session / temp files
+SESSION_HANDOFF.md
+*.bak
+*.tmp
+nul
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor noise
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Pseudopotential files
+agents/vishwakarma/pseudo/*.UPF
+
+# Development dump files (root level only)
+/ganesh_agent.txt
+/ganesh_api.txt
+/ganesh_executor.txt
+/ganesh_executor2.txt
+/ganesh_files.txt
+/ganesh_load_context.txt
+/ganesh_plan.txt
+/ganesh_schema.txt
+/ganesh_section_graph.txt
+/ganesh_wfconfig.txt
+/llm_mediator.txt
+/shani_core_dump.txt
+/shani_files.txt
+/shani_services_dump.txt
+/shani_structure.txt
+/source_index.txt
+/source_index_clean.txt
+/architecture.txt
+/tree_output.txt
+/download_papers.txt
+/vidur_agent.txt
+/vishwakarma_agent.txt
+/vishwakarma_middle.txt
+/cursorrules
+/start_brahm.bat
+
+# Logs
+logs/
+agents/shani/results/

@@ -1,0 +1,188 @@
+├── Formal_Reports
+│   └── Formal_Integrity_Audit_Report.pdf
+├── New Text Document.txt
+├── Output Records
+│   ├── After 3rd update to formating.docx
+│   ├── review_paper after 6.1-6.5.docx
+│   └── review_paper before 6.1-6.5.docx
+├── a.py
+├── benchmark_papers
+│   ├── dft_znse.pdf
+│   └── metal_thinfilms.pdf
+├── configs
+│   ├── __init__.py
+│   ├── create_services_layer.py
+│   ├── integrity_audit.py
+│   └── organize_project.py
+├── core
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-311.pyc
+│   │   ├── __init__.cpython-312.pyc
+│   │   ├── orchestrator.cpython-311.pyc
+│   │   ├── orchestrator.cpython-312.pyc
+│   │   ├── shani.cpython-312.pyc
+│   │   ├── tool_executor.cpython-311.pyc
+│   │   └── tool_executor.cpython-312.pyc
+│   ├── orchestrator.py
+│   ├── shani.py
+│   └── tool_executor.py
+├── database
+│   ├── __init__.py
+│   ├── research_workflow.db
+│   └── reserch_workflow.db
+├── debug_local_pipeline.py
+├── debug_s3.py
+├── deep_debug_s4.py
+├── desktop.ini
+├── diagnostic_runner.py
+├── extra
+│   ├── New Text Document.txt
+│   └── desktop.ini
+├── fix_db.py
+├── fix_spacy_pipeline.py
+├── papers
+├── pipeline
+│   └── __init__.py
+├── reports
+│   ├── integrity_log_20260302_154601.txt
+│   ├── integrity_report_20260302_154601.csv
+│   └── integrity_summary_20260302_154601.txt
+├── repositories
+│   ├── New Text Document.txt
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-311.pyc
+│   │   ├── __init__.cpython-312.pyc
+│   │   ├── draft_section_repo.cpython-312.pyc
+│   │   ├── execution_repo.cpython-311.pyc
+│   │   ├── execution_repo.cpython-312.pyc
+│   │   ├── failure_repo.cpython-311.pyc
+│   │   ├── failure_repo.cpython-312.pyc
+│   │   ├── paper_content_repo.cpython-312.pyc
+│   │   ├── paper_repo.cpython-312.pyc
+│   │   ├── repository.cpython-311.pyc
+│   │   ├── repository.cpython-312.pyc
+│   │   ├── research_knowledge_repo.cpython-312.pyc
+│   │   ├── stage_repo.cpython-311.pyc
+│   │   ├── stage_repo.cpython-312.pyc
+│   │   ├── workflow_repo.cpython-311.pyc
+│   │   └── workflow_repo.cpython-312.pyc
+│   ├── draft_section_repo.py
+│   ├── execution_repo.py
+│   ├── failure_repo.py
+│   ├── final_paper_repo.py
+│   ├── paper_content_repo.py
+│   ├── paper_content_repo.py.save
+│   ├── paper_repo.py
+│   ├── repository.py
+│   ├── research_knowledge_repo.py
+│   ├── stage_repo.py
+│   └── workflow_repo.py
+├── results
+│   └── review_paper.docx
+├── scripts
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-312.pyc
+│   │   ├── evaluate_retrieval.cpython-312.pyc
+│   │   ├── full_pipeline_diagnostic.cpython-312.pyc
+│   │   ├── init_db.cpython-312.pyc
+│   │   └── run_workflow.cpython-312.pyc
+│   ├── add_text_query.py
+│   ├── apply_core_fixes.py
+│   ├── apply_day17_patch.py
+│   ├── benchmark_shani.py
+│   ├── clean_run.sh.txt
+│   ├── debug_pipeline.py
+│   ├── evaluate_retrieval.py
+│   ├── fix_db_paths.py
+│   ├── full_pipeline_diagnostic.py
+│   ├── init_db.py
+│   ├── refactor_imports.py
+│   ├── run_workflow.py
+│   ├── verify_s3_implementation.py
+│   └── verify_s3_patch.py
+├── services
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-312.pyc
+│   │   ├── evaluation_service.cpython-312.pyc
+│   │   ├── knowledge_compressor.cpython-312.pyc
+│   │   └── llm_service.cpython-312.pyc
+│   ├── evaluation_service.py
+│   ├── knowledge_compressor.py
+│   ├── llm_mediator.py
+│   └── llm_service.py
+├── shani_diagnostic_runner.py
+├── shani_diagnostics.py
+├── show_data.py
+├── test_s4.py
+├── test_scispacy.py
+├── tests
+├── tools
+│   ├── New Text Document.txt
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-311.pyc
+│   │   ├── __init__.cpython-312.pyc
+│   │   ├── download_papers.cpython-312.pyc
+│   │   ├── draft_sections.cpython-312.pyc
+│   │   ├── extract_paper_content.cpython-312.pyc
+│   │   ├── extract_research_knowledge.cpython-312.pyc
+│   │   ├── generate_queries.cpython-311.pyc
+│   │   ├── generate_queries.cpython-312.pyc
+│   │   ├── generate_review_direction.cpython-312.pyc
+│   │   ├── process_papers.cpython-312.pyc
+│   │   ├── relation_extractor.cpython-312.pyc
+│   │   ├── resolve_pdf.cpython-312.pyc
+│   │   ├── search_arxiv.cpython-312.pyc
+│   │   ├── search_papers.cpython-311.pyc
+│   │   ├── search_papers.cpython-312.pyc
+│   │   ├── synthesize_paper.cpython-312.pyc
+│   │   └── text_cleaner.cpython-312.pyc
+│   ├── download_papers.py
+│   ├── draft_sections.py
+│   ├── evaluation_cli.py
+│   ├── extract_paper_content.py
+│   ├── extract_pdf_content.py
+│   ├── extract_research_knowledge.py
+│   ├── generate_queries.py
+│   ├── generate_review_direction.py
+│   ├── paper_ingestor.py
+│   ├── process_papers.py
+│   ├── relation_extractor.py
+│   ├── resolve_pdf.py
+│   ├── search_arxiv.py
+│   ├── search_papers.py
+│   ├── synthesize_paper.py
+│   └── text_cleaner.py
+├── tree -L 3.txt
+└── venv
+    ├── bin
+    │   ├── Activate.ps1
+    │   ├── activate
+    │   ├── activate.csh
+    │   ├── activate.fish
+    │   ├── f2py
+    │   ├── markdown-it
+    │   ├── normalizer
+    │   ├── numpy-config
+    │   ├── pip
+    │   ├── pip3
+    │   ├── pip3.12
+    │   ├── pygmentize
+    │   ├── pymupdf
+    │   ├── python -> python3
+    │   ├── python3 -> /usr/bin/python3
+    │   ├── python3.12 -> python3
+    │   ├── spacy
+    │   ├── tqdm
+    │   ├── typer
+    │   └── weasel
+    ├── include
+    │   └── python3.12
+    ├── lib
+    │   └── python3.12
+    ├── lib64 -> lib
+    └── pyvenv.cfg

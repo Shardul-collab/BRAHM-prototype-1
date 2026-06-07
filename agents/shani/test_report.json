@@ -1,0 +1,176 @@
+{
+  "timestamp": "2026-05-04T15:05:29.189348",
+  "total": 28,
+  "passed": 28,
+  "failed": 0,
+  "results": [
+    {
+      "group": "infra",
+      "name": "SQLite WAL + indexes",
+      "passed": true,
+      "detail": "mode=wal | tables=14 | indexes=5"
+    },
+    {
+      "group": "infra",
+      "name": "SHANI API reachable",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "group": "infra",
+      "name": "Notion schema loaded",
+      "passed": true,
+      "detail": "16 fields"
+    },
+    {
+      "group": "infra",
+      "name": "Ollama model present",
+      "passed": true,
+      "detail": "qwen2.5:7b-instruct-q3_k_m"
+    },
+    {
+      "group": "infra",
+      "name": "WSL RAM >= 14GB",
+      "passed": true,
+      "detail": "15.6 GB visible | .wslconfig=16GB"
+    },
+    {
+      "group": "vidur",
+      "name": "Module imports",
+      "passed": true,
+      "detail": "all 7 modules"
+    },
+    {
+      "group": "vidur",
+      "name": "XRD ASCII detection",
+      "passed": true,
+      "detail": "technique=XRD confidence=0.85 points=60"
+    },
+    {
+      "group": "vidur",
+      "name": "UV-Vis ASCII detection",
+      "passed": true,
+      "detail": "technique=UV-Vis confidence=0.80"
+    },
+    {
+      "group": "vidur",
+      "name": "Raman ASCII detection",
+      "passed": true,
+      "detail": "technique=Raman confidence=1.00"
+    },
+    {
+      "group": "vidur",
+      "name": "Unknown file (graceful)",
+      "passed": true,
+      "detail": "technique=Uncertain (graceful)"
+    },
+    {
+      "group": "vishwakarma",
+      "name": "Module imports",
+      "passed": true,
+      "detail": "all 5 modules"
+    },
+    {
+      "group": "vishwakarma",
+      "name": "QE binaries (critical set)",
+      "passed": true,
+      "detail": "13/14 binaries | missing critical: none"
+    },
+    {
+      "group": "vishwakarma",
+      "name": "Pseudo directory populated",
+      "passed": true,
+      "detail": "10 UPF files in /mnt/d/vishwakarma/pseudo"
+    },
+    {
+      "group": "vishwakarma",
+      "name": "SCF input generation",
+      "passed": true,
+      "detail": "38 lines | sections: CONTROL=True SYSTEM=True"
+    },
+    {
+      "group": "vishwakarma",
+      "name": "Phonon input generation",
+      "passed": true,
+      "detail": "11 lines"
+    },
+    {
+      "group": "vishwakarma",
+      "name": "pw.x output parser",
+      "passed": true,
+      "detail": "E=-868.12345678 Ry | Ef=5.432 eV | gap=2.1 eV"
+    },
+    {
+      "group": "vishwakarma",
+      "name": "ph.x output parser",
+      "passed": true,
+      "detail": "q-points=1 freqs_per_q=6"
+    },
+    {
+      "group": "vishwakarma",
+      "name": "Job create + status",
+      "passed": true,
+      "detail": "job_id=0f0aaa74...  status=created"
+    },
+    {
+      "group": "vishwakarma",
+      "name": "Pseudo discovery (Zn+Se)",
+      "passed": true,
+      "detail": "10 UPF files | Zn=NO Se=NO"
+    },
+    {
+      "group": "db",
+      "name": "Schema tables present",
+      "passed": true,
+      "detail": "tables=['DraftSection', 'ExecutionAttempt', 'FailureLog', 'FinalPaperSection', 'Paper', 'PaperContent', 'PaperEquation', 'PaperFigure', 'PaperTable', 'ResearchKnowledge', 'ResearchRelation', 'Stage', 'Workflow', 'WorkflowResearchConfig'] | missing=none"
+    },
+    {
+      "group": "db",
+      "name": "Paper + Workflow counts",
+      "passed": true,
+      "detail": "14238 papers | 35 workflows"
+    },
+    {
+      "group": "db",
+      "name": "ResearchKnowledge rows",
+      "passed": true,
+      "detail": "29855 knowledge rows | characterization:12571 | application:9472 | material:6018 | synthesis_method:1704 | computational_method:90"
+    },
+    {
+      "group": "db",
+      "name": "Performance indexes",
+      "passed": true,
+      "detail": "5 indexes | missing=none"
+    },
+    {
+      "group": "db",
+      "name": "WAL journal mode",
+      "passed": true,
+      "detail": "journal_mode=wal"
+    },
+    {
+      "group": "db",
+      "name": "Write/read/delete cycle",
+      "passed": true,
+      "detail": "write\u2192read\u2192delete cycle OK"
+    },
+    {
+      "group": "shani_api",
+      "name": "API reachable",
+      "passed": true,
+      "detail": "HTTP 200 at http://localhost:8000"
+    },
+    {
+      "group": "shani_api",
+      "name": "List workflows endpoint",
+      "passed": true,
+      "detail": "workflow 35 | stage=? status=?"
+    },
+    {
+      "group": "shani_api",
+      "name": "OpenAPI endpoint discovery",
+      "passed": true,
+      "detail": "7 total endpoints | workflow: ['/workflows', '/workflows/{workflow_id}/run', '/workflows/batch', '/workflows/{workflow_id}/status']"
+    }
+  ]
+}

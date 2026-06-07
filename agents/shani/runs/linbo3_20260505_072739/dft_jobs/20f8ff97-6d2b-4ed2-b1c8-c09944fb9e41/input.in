@@ -1,0 +1,11 @@
+Phonon calculation
+&INPUTPH
+  prefix    = 'linbo3'
+  outdir    = '/mnt/d/SQL_IMP_AI_Project/runs/linbo3_20260505_072739/dft_jobs/out'
+  tr2_ph    = 1.00e-14
+  fildyn    = 'dyn'
+  epsil     = .true.
+  lraman    = .true.
+/
+1
+  0.000000  0.000000  0.000000  1.0

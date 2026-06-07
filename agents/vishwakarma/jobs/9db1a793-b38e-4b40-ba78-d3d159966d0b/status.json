@@ -1,0 +1,14 @@
+{
+  "job_id": "9db1a793-b38e-4b40-ba78-d3d159966d0b",
+  "label": "in2se3_relax",
+  "code": "pw",
+  "status": "failed",
+  "created_at": "2026-05-27T02:59:00.527655+00:00",
+  "started_at": "2026-05-27T02:59:00.565812+00:00",
+  "ended_at": "2026-05-27T02:59:01.554854+00:00",
+  "exit_code": -6,
+  "error": "Non-zero exit code: -6\n---\n*** buffer overflow detected ***: terminated\n\nProgram received signal SIGABRT: Process abort signal.\n\nBacktrace for this error:\n#0  0x100d2b223e59 in ???\n#1  0x100d2b222e75 in ???\n#2  0x100d2ae4532f in ???\n#3  0x100d2ae9eb2c in pthread_kill\n#4  0x100d2ae4527d in gsignal\n#5  0x100d2ae288fe in abort\n#6  0x100d2ae297b5 in ???\n#7  0x100d2af36c48 in __fortify_fail\n#8  0x100d2af36603 in __chk_fail\n#9  0x100d2af37de4 in __snprintf_chk\n#10  0x55d4dd96e96e in ???\n#11  0x55d4dd78c1d7 in ???\n#12  0x55d4dd7f0007 in ???\n#13  0x55d4dd6700c7 in ???\n#14  0x55d4dd66ef22 in ???\n#15  0x100d2ae2a1c9 in ???\n#16  0x100d2ae2a28a in __libc_start_main\n#17  0x55d4dd66ef54 in ???\n#18  0xffffffffffffffff in ???\n",
+  "mpi_np": 1,
+  "extra_args": [],
+  "workdir": "/mnt/d/brahm/agents/vishwakarma/jobs/9db1a793-b38e-4b40-ba78-d3d159966d0b"
+}
