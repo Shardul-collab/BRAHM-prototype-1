@@ -125,3 +125,8 @@ _step2.sh
 _step3.sh
 _step4.sh
 _step2_mcp.py
+
+# Test files
+agents/chitragupta/system_test_1.py
+agents/chitragupta/system_test_2.py
+agents/shani/test_brahm.py
